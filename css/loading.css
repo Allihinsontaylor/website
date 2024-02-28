@@ -26,4 +26,5 @@ font-family: "Playfair Display", serif;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    filter: blur(0px);
 }
