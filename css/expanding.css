@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body{
     background-color: blue;
     height: 100vh;
@@ -13,14 +12,11 @@ body{
     justify-content:center;
     margin: 0;
     font-family: "Playfair Display", sans-serif;
-
-
 }
 
 .container{
     width: 90vw;
     display: flex;
-
 }
 
 .panel{
