@@ -22,7 +22,7 @@ font-family: "Playfair Display", serif;
     width:100vw;
     position:absolute;
     z-index: -1;
-    background-image=url("images/ocean.jpg")
+    background-imag:url("images/ocean.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
