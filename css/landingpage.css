@@ -3,7 +3,7 @@
 ; root{
     --primary-color: rgb(48,51,107);
     --secondary-color: #be2edd;
-    --model-duration: 1s;
+    --model-duration: 5s;
 }
 
 * {
@@ -11,8 +11,13 @@
 }
 
 body{
-    margin: 0;
     font-family: "Inter", sans-serif;
+    transition: transform 0.3s ease;
+    margin: 0;
+}
+
+body.show-nav {
+    transform: translateX(200px);
 }
 
 nav {
@@ -121,7 +126,11 @@ input[type='submit'] {
     display: none;
 }
 
-.modal {
+.modal-container.show-modal{
+    display: block;
+}
+
+.modal{
     background-color: white;
     position: absolute;
     top: 50%;
@@ -131,6 +140,17 @@ input[type='submit'] {
     max-width: 100%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    animation-name: modalopen;
+    animation-duration: var(--model-duration);
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .modal-header {
