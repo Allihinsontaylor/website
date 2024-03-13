@@ -49,5 +49,5 @@ cursor: pointer;
 }
 
 .search.active .btn{
-    transform: translatex(150px);
+    transform: translatex(198px);
 }
