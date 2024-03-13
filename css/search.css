@@ -39,7 +39,8 @@ width: 50px;
   padding: 15px;
   cursor: pointer;
 }
-.search .input.focus{
+
+.search .input:focus {
    outline: none;
 }
 
