@@ -39,7 +39,7 @@ transition: transform 1s ease;
   height: 50px;
   width: 50px;
   padding: 15px;
-  trainsition: width 1s ease;
+  transition: width 1s ease;
 }
 
 .search .input:focus {
